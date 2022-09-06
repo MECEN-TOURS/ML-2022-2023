@@ -10,5 +10,5 @@ Celui-ci contiendra toutes les étapes d'un projet ML:
 
 1. Acquisition des données (par webscraping); librairies `requests`, `beautiful soup` et `selenium`.
 2. Nettoyage des données et preprocessing; librairie `pandas`.
-3. Sélection et entrainement du modèle; librairie `scikit-learn` et `keras`.
+3. Sélection et entrainement du modèle; librairies `scikit-learn` et `keras`.
 4. Exploitation du prédicteur; librairie `textual`.
