@@ -1,0 +1,7 @@
+* Brainstorming
+
+** Objectifs
+
+   ~ Introduire le train_test_split.
+   ~ Introduire la notion d'hyperparamètre (au sens le plus général possible choix du type de modèle et de la numérisation aussi) et la cross validation.
+   ~ Mieux illustrer le mécanisme biais/variance.
