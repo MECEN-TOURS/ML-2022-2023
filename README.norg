@@ -1,0 +1,13 @@
+* Cours de Machine Learning
+
+  Cours du master {http://mecen-univ-tours.fr}[MECEN] pour les élèves de deuxième année, session 2022-2023.
+
+  On mettra les notebooks bruts des séances au fur et à mesure ainsi que certains compléments.
+
+  Le cours sera validé sur projet en groupe de deux personnes.
+  Celui-ci contiendra toutes les étapes d'un projet ML:
+
+  ~ Acquisition des données (par webscraping); librairies `requests`, `beautiful soup` et `selenium`.
+  ~ Nettoyage des données et preprocessing; librairie `pandas`.
+  ~ Sélection et entrainement du modèle; librairie `scikit-learn` et `keras`.
+  ~ Exploitation du prédicteur; librairie `textual`.
