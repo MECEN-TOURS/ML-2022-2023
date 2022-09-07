@@ -33,8 +33,8 @@ Une annonce sera alors d'autant plus intéressante que l'écart entre le prix ra
    Noter que si dans certains la numérisation est évidente (e.g. surface, nombre de pièce), dans d'autres cela peut être un peu plus délicat.
    Par exemple, dans le cas du quartier le fait de simplement numéroter les quartiers induit une notion d'ordre et de distance entre quartier totalement articielle qui pourrait biaiser la suite de la procédure.
    On verra dans ce cas qu'on peut utiliser un `OneHotEncoder`.
-3. Á ce stade, on a donc n vecteurs (c_1,\ldots c_N) \in (\mathbb{R}^D)^N et les prix affichés (p_1,...,p_N) \in \mathbb{R}^N correspondant.
-   On se donne alors un modèle c'est à dire une classe \mathcal{P} de fonctions de \mathbb{R}^D dans \mathbb{R}.
+3. Á ce stade, on a donc $n$ vecteurs $(c_1,\ldots c_N) \in (\mathbb{R}^D)^N$ et les prix affichés $(p_1,...,p_N) \in \mathbb{R}^N$ correspondant.
+   On se donne alors un modèle c'est à dire une classe $\mathcal{P}$ de fonctions de $\mathbb{R}^D$ dans $\mathbb{R}$.
    On va alors chercher le modèle minimisant l'erreur quadratique moyenne par rapport aux annonces récupérées, mathématiquement
 
    $$
@@ -43,4 +43,4 @@ Une annonce sera alors d'autant plus intéressante que l'écart entre le prix ra
 
    L'idée étant d'adaptée du Théorème Centrale Limite qui prouve que la moyenne empirique de variables aléatoires indépendantes et identiquement distribuées converge vers la moyenne de la distribution (et les deux quantités sont obtenues comme minimiseurs des variances empiriques et de la variance).
 
-4. La dernière étape consiste alors d'utiliser la fonction P^_ obtenue en créant une application avec une interface utilisateur (GUI ou TUI) permettant de filtrer les annonces de la base de donnée, puis on triera les annonces restantes suivant la valeur numérique p_i - P^_(c_i).
+4. La dernière étape consiste alors d'utiliser la fonction $P^*$ obtenue en créant une application avec une interface utilisateur (GUI ou TUI) permettant de filtrer les annonces de la base de donnée, puis on triera les annonces restantes suivant la valeur numérique $p_i - P^_(c_i)$.
