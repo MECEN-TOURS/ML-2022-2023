@@ -70,7 +70,8 @@ prix rationnel et le prix affiché est grand.
    distribuées converge vers la moyenne de la distribution (et les deux
    quantités sont obtenues comme minimiseurs des variances empiriques et de la variance).
 
-4. La dernière étape consiste alors d'utiliser la fonction $P^*$ obtenue en créant
+4. La dernière étape consiste alors d'utiliser le minimiseur obtenu, en créant
    une application avec une interface utilisateur (GUI ou TUI) permettant de filtrer
    les annonces de la base de donnée, puis on triera les annonces restantes suivant
-   la valeur numérique $p_i - P^*(c_i)$.
+   la valeur numérique
+   $$p_i - P^*(c_i).$$
